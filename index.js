@@ -40,7 +40,7 @@ bot.on('ready', () => {
                         if (characters[i] === "3") { _ret += ":three: "; continue }
                         if (characters[i] === "4") { _ret += ":four: "; continue }
                         if (characters[i] === "5") { _ret += ":five: "; continue }
-                        if (characters[i] === "7") { _ret += ":six: "; continue }
+                        if (characters[i] === "6") { _ret += ":six: "; continue }
                         if (characters[i] === "7") { _ret += ":seven: "; continue }
                         if (characters[i] === "8") { _ret += ":eight: "; continue }
                         if (characters[i] === "9") { _ret += ":nine: "; continue }
