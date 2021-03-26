@@ -1,7 +1,9 @@
 const Discord = require("discord.js");
+require('dotenv').config()
+
 
 const bot = new Discord.Client();
-const token = 'ODI0ODQyNDAyODAzNDgyNjU0.YF1QWQ.25IqjPvnsjUoJ0l9Ndubm2a7sdU'
+const token = process.env.DISCORD_TOKEN
 
 bot.on('ready', () => {
     const prefix = '!'
