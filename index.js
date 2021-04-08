@@ -54,7 +54,7 @@ bot.on('ready', () => {
                     _ret += "  ";
                 }
             }
-
+            msg.delete(1000);
             msg.reply(_ret);
         }
 
