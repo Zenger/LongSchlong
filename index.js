@@ -30,7 +30,7 @@ bot.on('ready', () => {
                     let characters = args[j].split("");
 
                     for (let i = 0; i < characters.length; i++) {
-                        if (characters[i] === " " || characters[i] === "\n" || characters[i] === "\t") continue;
+                        if (characters[i] === " " || characters[i] === "\n" || characters[i] === "\t" || characters[i] === "'" || characters[i] === "\"" || characters[i] === "&") continue;
                         if (characters[i] === ".") { _ret += ":record_button: "; continue; }
                         if (characters[i] === "!") { _ret += ":exclamation: "; continue; }
                         if (characters[i] === "?") { _ret += ":question: "; continue; }
